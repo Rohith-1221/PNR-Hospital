@@ -2,3 +2,47 @@
     height:450px;
     width:100%;
 }
+.ctext{
+    background:url('https://wallpapercave.com/wp/wp2752761.jpg');
+    height:200px;
+    background-size: cover;
+    padding-top:50px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    background:url('https://wallpapersmug.com/download/1920x1080/b31aaf/new-york-city-skyscrapers-8k.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maps{
+    height:30rem;
+    margin:20px;
+    width:60rem;
+    border:1px solid #fff;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.address{
+    /* border:1px solid #fff; */
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    color:darkblue;
+    padding:10px;
+    margin:10px;
+    width:400px;
+    font-size: 18px;
+}
+.coe{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    color:darkblue;
+    padding:10px;
+    margin:10px;
+    width:400px;
+    font-size: 18px;
+}

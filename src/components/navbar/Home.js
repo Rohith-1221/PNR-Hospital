@@ -5,6 +5,7 @@ import Doctors from "../cards/Doctors";
 import AppointmentForm from "../appointmentform/AppointmentForm";
 import Specialities from "../specialTreatments/Specialities";
 import Treatment from "../specialTreatments/Treatment";
+import Contact from "./Contact";
 
 function Home({data}) {
   return (
@@ -19,6 +20,7 @@ function Home({data}) {
         <Specialities/>
         <Treatment/>
         <AppointmentForm/>
+        <Contact/>
     </>
   );
 }
