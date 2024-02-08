@@ -1,0 +1,45 @@
+/* Doctor carddata */
+.doctorcard{
+    /* background-color: cornflowerblue; */
+    text-align: center;
+}
+.finddoctor{
+    background:url('https://bmgh.org/images/hero-image3.jpg');
+    height:200px;
+    background-size: cover;
+    padding-top:40px;
+    font-size: 25px;
+    color:darkblue;
+}
+.cardapi{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fullcard{
+    text-align: center;
+    border:1px solid #000;
+    width:300px;
+    height:400px;
+    margin:10px;
+}
+.carddata{
+    height:200px;
+    color:rgb(255, 255, 255);
+    background-color: #000000;
+}
+.display{
+    padding:10px;
+    text-align: center;
+    background-color:rgb(172, 2, 172);
+}
+.cardbtn{
+    margin-top: 20px;
+    padding:10px;
+    font-size: 18px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius:10px;
+    color:rgb(255, 255, 255);
+    background-color:darkcyan;
+}

@@ -1,0 +1,27 @@
+[
+    {
+      "id":1,
+      "question":"CARDIAC SURGERY",
+      "solution": "Best Cardiac Surgery Hospital in Hyderabad.PNR Hospitals is one of the leading Cardiac sciences hospitals in Hyderabad, India that offers comprehensive surgical treatment for a variety of heart disorders. "
+    },
+    {
+      "id":2,
+      "question":"ENT",
+      "solution": "The ENT department at the PNR Hospitals is one of the best centers that provide comprehensive care and optimum medical facilities. The department offers excellent clinical evaluation and gentle care to patients from anywhere in the world."
+    },
+    {
+      "id":3,
+      "question":"BRAIN",
+      "solution": "We have top-class medical practitioners to treat people affected by spine and brain conditions and also offer ample guidance to their carers and families. Our aim is to reduce anxiety and uncertainty by offering accurate, concise, clear, and helpful guidance by offering the best services."
+    },
+    {
+      "id":4,
+      "question":"LUNGS",
+      "solution": "Lungs are the two spongy organs present in the chest that inhale oxygen and exhale carbon dioxide. The right lung comprises three sections, known as lobes, while the left lung only comprises two lobes. Compared with the right lung, the left lung is smaller in size, as it houses the heart. "
+    },
+    {
+      "id":5,
+      "question":"KIDNEY",
+      "solution": "Best Kidney Stone Removal Treatment in Hyderabad, India Kidney stones are mineral and acid salt deposits that bind together in concentrated urine. They can be uncomfortable when moving through the urinary tract."
+    }
+]
