@@ -19,6 +19,7 @@
 .data{
     margin:20px;
     width:95%;
+    text-align: center;
 }
 .data h2{
     color:rgb(0, 111, 125);
@@ -33,5 +34,5 @@
 .solution{
     font-size: 18px;
     color:#fff;
-    background-color: #000;
+    background-color: rgb(0, 111, 125);
 }

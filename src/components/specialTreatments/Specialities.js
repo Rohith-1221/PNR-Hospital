@@ -18,7 +18,7 @@ const Specialities = () => {
         <h1>SPECIALITIES</h1>
       </div>
       <div className='data'>
-        <h2>Some of the specialities that we are offering in the hospital mentioned below:</h2>
+        <h2>Some of the specialities that we are offering in the hospital mentioned below</h2>
           {result.map((text, index) => (
             <Accordion key={index} className="accord">
               <AccordionSummary
@@ -26,6 +26,7 @@ const Specialities = () => {
                 aria-controls="panel1-content"
                 id="panel1-header"
                 className="question"
+                sx={{backgroundColor: " rgba(0, 0, 0, 0.695)",color:"darkcyan"}}
               >
                 {text.question}
               </AccordionSummary>

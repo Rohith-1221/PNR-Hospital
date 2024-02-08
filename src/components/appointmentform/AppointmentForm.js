@@ -2,6 +2,7 @@ import React from 'react'
 import './appstyle.css'
 import { useForm } from 'react-hook-form'
 
+
 const AppointmentForm = () => {
     const {register,handleSubmit}=useForm();
     const onSubmit=(result)=>console.log(result)
