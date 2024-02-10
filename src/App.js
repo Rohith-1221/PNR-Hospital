@@ -12,14 +12,13 @@ import Treatment from './components/specialTreatments/Treatment';
 
 const App = () => {
   
-  const image=['Images/im1.jpg','Images/im4.jpg','Images/im5.jpg']
  
   return (
     <div className='App'>
       <Router>
         <Navbar/>
         <Routes>
-            <Route path='/' element={<Home data={image}/>}/>
+            <Route path='/' element={<Home/>}/>
             <Route path='/doctors' element={<Doctors/>}/>
             <Route path='/specialities' element={<Specialities/>}/>
             <Route path='/treatments' element={<Treatment/>}/>

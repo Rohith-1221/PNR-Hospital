@@ -26,7 +26,7 @@ const Specialities = () => {
                 aria-controls="panel1-content"
                 id="panel1-header"
                 className="question"
-                sx={{backgroundColor: " rgba(0, 0, 0, 0.695)",color:"darkcyan"}}
+                sx={{backgroundColor: " rgba(0, 0, 0, 0.5)",color:"darkred"}}
               >
                 {text.question}
               </AccordionSummary>

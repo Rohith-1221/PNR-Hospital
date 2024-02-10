@@ -64,3 +64,34 @@
     text-align: center;
     padding:10px;
 }
+
+.imag{
+    position:relative;
+}
+.image1{
+    height:400px;
+    width:600px;
+    margin:1rem;
+    border-radius: 1.5rem;
+    position:relative;
+    z-index: 1;
+}
+.image2{
+    height:300px;
+    width:500px;
+    left:25%;
+    top: 15%;
+    border-radius: 1.5rem;
+    position:absolute;
+    z-index: 2;
+}
+.about{
+    display: flex;
+}
+.content{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding:30px;
+
+}

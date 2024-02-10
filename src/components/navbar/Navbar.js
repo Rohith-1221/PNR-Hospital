@@ -56,7 +56,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            PNR HOSPITALS
+            PNR HOSPITAL
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -100,7 +100,7 @@ function Navbar() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -112,7 +112,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            PNR HOSPITAL
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
