@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"CARDIOLOGY",
+        "image":"Images/tmt1.jpg",
+        "category":"Heart",
+        "content":"Cardiology is a branch of medicine that concerns diseases and disorders of the heart, which may range from congenital defects through to acquired heart diseases such as coronary artery disease...more"
+    },  
+    {
+        "id":2,
+        "name":"ENT",
+        "image":"Images/tmt3.png",
+        "category":"Ear,Nose,Tongue",
+        "content":"ENT stands for Ear, Nose, and Throat,treating disorders related to these areas. Common conditions treated by ENT specialists include ear infections, sinusitis, allergies, throat infections, hearing loss,...more"
+    },
+    {
+        "id":3,
+        "name":"ORTHOPEDICS",
+        "image":"Images/tmt4.jpg",
+        "category":"Muscle Joints",
+        "content":"Orthopedics is a medical specialty focused on the diagnosis, treatment, prevention, and rehabilitation of disorders and injuries related to skeletal system. This system includes bones, joints, ligaments,...more "
+    },
+    {
+        "id":4,
+        "name":"NEUROSPECIALIST",
+        "image":"Images/tmt2.avif",
+        "contact":9796887451,
+        "category":"Nerves",
+        "content":"The study of the nervous system, which includes the brain, spinal cord, and peripheral nerves.Disciplines, including biology, psychology, and more,structure and function of the nervous system...more"
+    }
+]

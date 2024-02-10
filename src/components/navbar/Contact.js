@@ -1,6 +1,26 @@
 import React from 'react'
+import Box from '@mui/material/Box';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
 
 const Contact = () => {
+
+      const [star,setStar]=React.useState(0);
+      const [star1,setStar1]=React.useState(0);
+      const [star2,setStar2]=React.useState(0);
+      const [star3,setStar3]=React.useState(0); 
+    const Star=(event,newValue) => {
+      setStar(newValue);
+    }
+    const Star1=(event,newValue) => {
+      setStar1(newValue);
+    }
+    const Star2=(event,newValue) => {
+      setStar2(newValue);
+    }
+    const Star3=(event,newValue) => {
+      setStar3(newValue);
+    }
   
   return (
     <div className='contact'>
@@ -27,13 +47,30 @@ const Contact = () => {
               <p>+91 8887885445</p>
               <p>Doctor Enquiry:+91-408579612</p>
             </div>
-            <div className='address'>
-              <h2>Address:</h2>
-              <p>PNR Hospitals</p>
-              <p>14,PVR colony</p>
-              <p>Banjara Hills</p>
-              <p>Hyderabad,Telangana.</p>
+            <div className='feedback'>
+                <h2 sx={{fontSize:'25px'}}>Share your Feedback</h2>
+                <Box sx={{'& > legend': { mt: 2 }}} className='ratingitems'>
+                <Typography component="legend" sx={{fontSize:'20px'}}>Hospital Maintainance:</Typography>
+                <Rating
+                    value={star}
+                    onChange={Star} className="starcard"/>
+                <Typography component="legend" sx={{fontSize:'20px'}}>Doctors alertness and knowledge:</Typography>
+                <Rating
+                    value={star1}
+                    onChange={Star1} className="starcard"/>
+                <Typography component="legend" sx={{fontSize:'20px'}}>Use of latest technology:</Typography>
+                <Rating
+                    value={star2}
+                    onChange={Star2} className="starcard"/>
+                <Typography component="legend" sx={{fontSize:'20px'}}>Parking facility and security:</Typography>
+                <Rating
+                    value={star3}
+                    onChange={Star3} className="starcard"/>
+                </Box>
             </div>
+        </div>
+        <div className='cright'>
+          copyrights@ pnr hospitals#2024...
         </div>
     </div>
   )

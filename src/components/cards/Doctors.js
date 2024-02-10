@@ -7,7 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import CardActionArea from '@mui/material/CardActionArea';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router';
-// import Carousel from 'react-material-ui-carousel'
 
 const Doctors= () => {
     const [data,setData]=useState([]);
@@ -27,7 +26,6 @@ const Doctors= () => {
           <h2>FIND A DOCTOR</h2>
         </div>
         <div className='cardapi'>
-        {/* <Carousel className='carouselcard'> */}
         {data.map((value,index)=>(
                 <Card sx={{display: 'flex', flexDirection: 'column' }} key={index} className='fullcard'>
                 <CardActionArea>
@@ -51,7 +49,6 @@ const Doctors= () => {
                 </CardActionArea>
               </Card>
         ))}
-       {/* </Carousel> */}
     </div>
     </div>
   )

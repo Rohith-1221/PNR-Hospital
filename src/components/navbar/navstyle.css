@@ -30,8 +30,8 @@
 .address{
     /* border:1px solid #fff; */
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.623);
-    color:darkblue;
+    background-color: rgba(0, 0, 0, 0.623);
+    color:rgb(255, 255, 255);
     padding:10px;
     margin:10px;
     width:400px;
@@ -40,9 +40,27 @@
 .coe{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.623);
-    color:darkblue;
+    color:rgb(0, 0, 0);
     padding:10px;
     margin:10px;
     width:400px;
     font-size: 18px;
+}
+.feedback{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    color:rgb(0, 0, 0);
+    padding:10px;
+    margin:10px;
+    width:400px;
+    font-size: 18px;
+}
+.starcard{
+    font-size:20px;
+}
+.cright{
+    background-color: #fff;
+    color:Red;
+    text-align: center;
+    padding:10px;
 }

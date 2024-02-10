@@ -6,6 +6,7 @@ import AppointmentForm from "../appointmentform/AppointmentForm";
 import Specialities from "../specialTreatments/Specialities";
 import Treatment from "../specialTreatments/Treatment";
 import Contact from "./Contact";
+// import About from "./About";
 
 function Home({data}) {
   return (
@@ -15,7 +16,7 @@ function Home({data}) {
           <img key={index} src={imag} className='cimage' alt='carouselimage'/>
         ))}
         </Carousel>
-        
+        {/* <About/> */}
         <Doctors/>
         <Specialities/>
         <Treatment/>
