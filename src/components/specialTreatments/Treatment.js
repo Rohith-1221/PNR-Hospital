@@ -1,4 +1,4 @@
-import './style.css'
+import './ststyle.css'
 import value from './data1.json'
 import React, { useEffect, useState } from 'react'
 import Card from '@mui/material/Card';
@@ -18,9 +18,9 @@ const Treatment = () => {
       <div className='treat'>
         <h1>Treatments and Surgery</h1>
       </div>
-      <div className='cardapi'>
+      <div className='cardtreat'>
         {data.map((value,index)=>(
-                <Card  key={index} className='fullcard'>
+                <Card  key={index} className='fullview'>
                 <CardActionArea className='display'>
                   <CardMedia
                     component="img"
@@ -28,7 +28,7 @@ const Treatment = () => {
                     image={value.image}
                     alt="green iguana"
                   />
-                  <CardContent className='carddata'>
+                  <CardContent className='cardcontent'>
                     <Typography gutterBottom variant="h5" >
                       {value.name}
                     </Typography>

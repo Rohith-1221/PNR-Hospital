@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './style.css'
+import './ststyle.css'
 import data from './data.json'
 import { FaAnglesDown } from "react-icons/fa6";
 import Accordion from "@mui/material/Accordion";
@@ -26,7 +26,7 @@ const Specialities = () => {
                 aria-controls="panel1-content"
                 id="panel1-header"
                 className="question"
-                sx={{backgroundColor: " rgba(0, 0, 0, 0.5)",color:"darkred"}}
+                sx={{backgroundColor: " rgba(0, 0, 0, 0.1)",color:"black"}}
               >
                 {text.question}
               </AccordionSummary>

@@ -17,8 +17,8 @@
     text-align: center;
 }
 .data{
-    margin:20px;
-    width:95%;
+    margin:20px 300px;
+    width:60%;
     text-align: center;
 }
 .data h2{
@@ -36,22 +36,23 @@
     color:#fff;
     background-color: rgb(0, 111, 125);
 }
-.cardapi{
+.cardtreat{
     background:url('https://static.vecteezy.com/system/resources/previews/006/713/080/non_2x/abstract-health-medical-science-healthcare-icon-digital-technology-science-concept-modern-innovation-treatment-medicine-on-hi-tech-future-blue-background-for-wallpaper-template-web-design-vector.jpg');
     display:flex;
     justify-content:space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.fullcard{
+.fullview{
     text-align: center;
     border:1px solid #000;
     border-radius: 20px;
     width:300px;
     height:420px;
+    margin:15px;
 }
-.carddata{
+.cardcontent{
     height:220px;
-    color:rgb(195, 0, 0);
-    background-color: #00c3ffaa;
+    color:rgb(0, 0, 0);
+    background-color: #ffffffa2;
 }

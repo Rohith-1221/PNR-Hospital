@@ -1,4 +1,4 @@
-import  './style.css'
+import  './cardstyle.css'
 import React, { useEffect, useState } from 'react'
 import result from './data.json'
 import Card from '@mui/material/Card';
