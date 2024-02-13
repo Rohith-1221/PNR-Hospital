@@ -5,20 +5,17 @@ import Specialities from "../specialTreatments/Specialities";
 import Treatment from "../specialTreatments/Treatment";
 import Contact from "./Contact";
 import About from "./About";
-// import Appointment from '../appointmentform/Appointment';
+import './navstyle.css'
 
 const Home=()=> {
   return (
     <>
-      
-
         <About/>
         <Doctors/>
         <Specialities/>
         <Treatment/>
         <AppointmentForm/>
         <Contact/>
-        {/* <Appointment/> */}
     </>
   );
 }

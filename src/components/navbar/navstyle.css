@@ -31,13 +31,14 @@
 
 .address{
     /* border:1px solid #fff; */
-    /* border-radius: 20px; */
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.623);
     color:rgb(255, 255, 255);
     padding:10px;
     /* margin:10px; */
     width:350px;
     height:350px;
+    font-size:18px;
 }
 .coe{
     border-radius: 20px;
@@ -47,6 +48,7 @@
     /* margin:10px; */
     width:400px;
     height:350px;
+    font-size:18px;
 }
 .feedback{
     border-radius: 20px;
@@ -56,6 +58,7 @@
     /* margin:10px; */
     width:400px;
     height:350px;
+    font-size:18px;
 }
 .starcard{
     font-size:20px;
@@ -80,7 +83,7 @@
 }
 .image2{
     height:300px;
-    width:70%;
+    width:75%;
     left:25%;
     top: 15%;
     border-radius: 1.5rem;
@@ -96,4 +99,9 @@
     text-align: center;
     padding:30px;
     width:60%;
+}
+@media (maxwidth:425px){
+    .about{
+        display: block;
+    }
 }

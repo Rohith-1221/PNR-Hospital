@@ -9,7 +9,11 @@ const AppointmentSlice = createSlice({
                 id:Date.now(),
                 firstname:action.payload.firstname,
                 lastname:action.payload.lastname,                
-                problem:action.payload.problem,
+                problem:action.payload.problem,                
+                number:action.payload.number,                                
+                appodate:action.payload.appodate,                               
+                age:action.payload.age,                              
+                gender:action.payload.gender,
             }
             state.push(newPost);
         },
@@ -19,6 +23,10 @@ const AppointmentSlice = createSlice({
                 appo.firstname=action.payload.firstname;
                 appo.lastname=action.payload.lastname;
                 appo.problem=action.payload.problem;
+                appo.number=action.payload.number;
+                appo.appodate=action.payload.appodate;
+                appo.age=action.payload.age;
+                appo.gender=action.payload.gender;
             }
         },
         deleteAppo:(state,action)=>{

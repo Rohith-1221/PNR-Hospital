@@ -9,12 +9,13 @@
     padding-bottom:30px;
 }
 label{
-    font-size: 20px;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .formdata input{
     font-size: 20px;
-    color:rgb(255, 255, 255);
-    background-color: darkcyan;
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.864);
     border:1px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
@@ -40,9 +41,21 @@ label{
     font-size: 20px;
     padding:7px;
     margin:5px;
-    width:100px;
+    width:200px;
     background-color: rgb(255, 0, 21);
     color:#fff;
     border:1px solid Red;
     border-radius: 10px;
+}
+.list-view{
+    display: inline-flex;   
+}
+.listdisplay{
+    margin:10px;
+    color:#fff;
+    border:1px solid #000;
+    border-radius: 20px;
+    background-color: #000000ae;
+    list-style: none;
+    padding: 10px;
 }

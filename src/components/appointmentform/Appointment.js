@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addAppo,updateAppo,deleteAppo } from './AppointmentSlice';
 import { useForm } from 'react-hook-form';
+import './appstyle.css'
 
 const Appointment = () => {
     const {register}=useForm();
@@ -10,7 +11,11 @@ const Appointment = () => {
     const [formData,setFormData]=useState({
         firstname:' ',
         lastname:' ',
-        problem:' '
+        problem:' ',
+        number:' ',
+        appodate:' ',
+        age:' ',
+        gender:' '
     });
     const handleInputChange=(e)=>{
         setFormData({
@@ -24,7 +29,11 @@ const Appointment = () => {
         setFormData({
             firstname:' ',
             lastname:' ',
-            problem:' '
+            problem:' ',
+            number:' ',
+            appodate:' ',
+            age:' ',
+            gender:' '
         });
     };
 
@@ -37,7 +46,11 @@ const Appointment = () => {
         setFormData({
             firstname:'',
             lastname:' ',
-            problem:''
+            problem:'',
+            number:' ',
+            appodate:' ',
+            age:' ',
+            gender:' '
         })
     };
 
@@ -46,10 +59,10 @@ const Appointment = () => {
     };
 
   return (
-    <div className='blogs'>
-        <div className='add-data'>
-            <h2>Add Appointments</h2>
-            <label>FirstName:</label>
+    <div className='appform'>
+        <div className='formdata'>
+            <h2>Book Appointments</h2>
+            <label>FIRSTNAME:</label>
             <input 
             type='text'
             {...register('Firstname',{required:true,maxLength:14})}
@@ -58,7 +71,7 @@ const Appointment = () => {
             value={formData.title}
             onChange={handleInputChange}/><br/><br/>
 
-            <label>LastName:</label>
+            <label>LASTNAME:</label>
             <input
             type='text'
             name='lastname'
@@ -66,42 +79,63 @@ const Appointment = () => {
             value={formData.content}
             onChange={handleInputChange}/><br/><br/>
 
-            <label>Problem:</label>
+            <label>AGE:</label>
+            <input 
+            type='text'
+            name ='age'
+            placeholder='age'
+            value={formData.age}
+            onChange={handleInputChange}/><br/><br/>
+
+            <label>GENDER:</label>
+            <input 
+            type='text'
+            name ='gender'
+            placeholder='gender'
+            value={formData.gender}
+            onChange={handleInputChange}/><br/><br/>
+            
+            <label>MOBILE NUMBER:</label>
+            <input 
+            type='text'
+            name ='number'
+            placeholder='mobile number'
+            value={formData.number}
+            onChange={handleInputChange}/><br/><br/>
+            
+            <label>PROBLEM:</label>
             <input 
             type='text'
             name ='problem'
             placeholder='problem'
             value={formData.problem}
             onChange={handleInputChange}/><br/><br/>
-            
-            {/* <label>FirstName:</label>
+
+            <label>DATE and TIME:</label>
             <input 
-            type='text'
-            name ='firstname'
-            placeholder='firstname'
-            value={formData.title}
+            type='datetime-local'
+            name ='appodate'
+            placeholder='appodate'
+            value={formData.appodate}
             onChange={handleInputChange}/><br/><br/>
-            
-            <label>FirstName:</label>
-            <input 
-            type='text'
-            name ='firstname'
-            placeholder='firstname'
-            value={formData.title}
-            onChange={handleInputChange}/><br/><br/> */}
+
     
-            <button onClick={handleAddPost} className='btn'>Add Post</button>
+            <button onClick={handleAddPost} className='formbtn'>Book Appointment</button>
         </div>
         <div className='postview'>
-            <h2>Appointments</h2>
             <ul className='list-view'>
                 {appointments.map((post)=>(
                     <li key={post.id} className='listdisplay'>
+                        <h2>Appointments</h2>
                         <p>FirstName:{post.firstname}</p>
                         <p>LastName:{post.lastname}</p>
+                        <p>Age:{post.age}</p>
+                        <p>Gender:{post.gender}</p>
+                        <p>Mobile number:{post.number}</p>
                         <p>Problem:{post.problem}</p>
-                        <button onClick={()=>handleUpdatePost(post.id)} className='btn'>Update</button>
-                        <button onClick={()=>handleDeletePost(post.id)} className='btn'>Delete</button>
+                        <p>Date and Time:{post.appodate}</p>
+                        <button onClick={()=>handleUpdatePost(post.id)} className='formbtn'>Update</button>
+                        <button onClick={()=>handleDeletePost(post.id)} className='formbtn'>Delete</button>
                     </li>
                 ))}
             </ul>
