@@ -20,10 +20,10 @@ label{
 }
 .formdata{
     background-color: rgba(0, 0, 0, 0.695);
-    width:600px;
+    width:40%;
     border:1px solid #fff;
     border-radius: 20px;
-    margin-left: 430px;
+    margin-left: 30%;
     padding: 10px;
 }
 .appointment{

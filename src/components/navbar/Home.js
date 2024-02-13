@@ -5,6 +5,7 @@ import Specialities from "../specialTreatments/Specialities";
 import Treatment from "../specialTreatments/Treatment";
 import Contact from "./Contact";
 import About from "./About";
+// import Appointment from '../appointmentform/Appointment';
 
 const Home=()=> {
   return (
@@ -17,6 +18,7 @@ const Home=()=> {
         <Treatment/>
         <AppointmentForm/>
         <Contact/>
+        {/* <Appointment/> */}
     </>
   );
 }

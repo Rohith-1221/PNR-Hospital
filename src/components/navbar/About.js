@@ -10,7 +10,7 @@ const About = () => {
           <img key={index} src={imag} className='cimage' alt='carouselimage'/>
         ))}
         </Carousel> */}
-        <div className='about'>
+        <div className='about' sx={{display: { md: 'block' }}}>
         <div className="imag">
           <div>
               <img src={image} className="image1" alt='aboutimage'/>

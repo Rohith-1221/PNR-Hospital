@@ -8,7 +8,7 @@ import AppointmentForm from './components/appointmentform/AppointmentForm';
 import Doctors from './components/cards/Doctors';
 import Specialities from './components/specialTreatments/Specialities';
 import Treatment from './components/specialTreatments/Treatment';
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Kalam&display=swap" rel="stylesheet"/>
+{/* <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Kalam&display=swap" rel="stylesheet"/> */}
 
 const App = () => {
   

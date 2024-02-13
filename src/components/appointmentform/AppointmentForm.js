@@ -22,7 +22,7 @@ const AppointmentForm = () => {
             <input {...register('Problem',{pattern:/^[A-Za-z]+$/i})} name='problem'/><br/><br/>
             <label for='mobilenumber'>Mobile Number:</label>
             <input {...register('mobile number',{required:true,maxLength:10})} name='mobilenumber'/><br/><br/>
-            <label for='age'>Age:</label>
+            <label for='age'>Age :</label>
             <input type='number' {...register('Age',{max:99,min:21})} name='age'/><br/><br/>
             <label for='gender'>Gender:</label>
             <input type='text' {...register('gender',{maxLength:6,required:true})} name='gender'/><br/><br/>

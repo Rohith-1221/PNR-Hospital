@@ -13,47 +13,49 @@
 }
 .contact{
     text-align: center;
-    background:url('https://wallpapersmug.com/download/1920x1080/b31aaf/new-york-city-skyscrapers-8k.jpg');
+    background:url('https://4kwallpapers.com/images/wallpapers/empire-state-building-manhattan-new-york-city-skyscraper-1920x1080-1343.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .maps{
     height:30rem;
     margin:20px;
-    width:60rem;
+    width:70%;
     border:1px solid #fff;
 }
 .footer{
     display:flex;
     justify-content: space-evenly;
+    padding:15px;
 }
+
 .address{
     /* border:1px solid #fff; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
     background-color: rgba(0, 0, 0, 0.623);
     color:rgb(255, 255, 255);
     padding:10px;
-    margin:10px;
-    width:400px;
-    font-size: 18px;
+    /* margin:10px; */
+    width:350px;
+    height:350px;
 }
 .coe{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.623);
     color:rgb(0, 0, 0);
     padding:10px;
-    margin:10px;
+    /* margin:10px; */
     width:400px;
-    font-size: 18px;
+    height:350px;
 }
 .feedback{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.623);
     color:rgb(0, 0, 0);
     padding:10px;
-    margin:10px;
+    /* margin:10px; */
     width:400px;
-    font-size: 18px;
+    height:350px;
 }
 .starcard{
     font-size:20px;
@@ -70,7 +72,7 @@
 }
 .image1{
     height:400px;
-    width:600px;
+    width:100%;
     margin:1rem;
     border-radius: 1.5rem;
     position:relative;
@@ -78,7 +80,7 @@
 }
 .image2{
     height:300px;
-    width:500px;
+    width:70%;
     left:25%;
     top: 15%;
     border-radius: 1.5rem;
@@ -93,5 +95,5 @@
     color:rgb(0, 0, 0);
     text-align: center;
     padding:30px;
-
+    width:60%;
 }
