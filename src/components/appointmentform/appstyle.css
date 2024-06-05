@@ -8,6 +8,9 @@
     /* margin:20px; */
     padding-bottom:30px;
 }
+.postview{
+    display:block
+}
 label{
     font-size: 22px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +19,7 @@ label{
     color:darkblue
 }
 .formdata input{
+    width:200px;
     font-size: 20px;
     color:rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.864);
@@ -24,7 +28,7 @@ label{
 }
 .formdata{
     background-color: rgba(0, 0, 0, 0.695);
-    width:40%;
+    width:60%;
     border:1px solid #fff;
     border-radius: 20px;
     margin-left: 30%;
@@ -51,7 +55,7 @@ label{
     border-radius: 10px;
 }
 .list-view{
-    display: inline-flex;   
+    display: inline-block;   
 }
 .listdisplay{
     margin:10px;

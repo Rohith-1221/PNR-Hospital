@@ -24,9 +24,10 @@
     border:1px solid #fff;
 }
 .footer{
-    display:flex;
+    /* display:flex; */
     justify-content: space-evenly;
     padding:15px;
+    margin:10px;
 }
 
 .address{
@@ -106,5 +107,10 @@
 @media (maxwidth:425px){
     .about{
         display: block;
+    }
+    .footer{
+        display:inline-block;
+        /* justify-content: space-evenly; */
+        /* padding:15px; */
     }
 }

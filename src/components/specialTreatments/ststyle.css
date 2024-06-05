@@ -18,8 +18,8 @@
 }
 .data{
     margin:2% 15%;
-    width:60%;
-    text-align: center;
+    width:70%;
+    /* text-align: center; */
 }
 .data h2{
     color:rgb(0, 111, 125);
