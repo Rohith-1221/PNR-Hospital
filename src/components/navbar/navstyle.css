@@ -24,7 +24,7 @@
     border:1px solid #fff;
 }
 .footer{
-    /* display:flex; */
+    display:flex;
     justify-content: space-evenly;
     padding:15px;
     margin:10px;
@@ -47,7 +47,7 @@
     color:rgb(0, 0, 0);
     padding:10px;
     /* margin:10px; */
-    width:400px;
+    width:350px;
     height:350px;
     font-size:18px;
 }
@@ -57,7 +57,7 @@
     color:rgb(0, 0, 0);
     padding:10px;
     /* margin:10px; */
-    width:400px;
+    width:350px;
     height:350px;
     font-size:18px;
 }
@@ -104,13 +104,22 @@
 .content h1{
     color:darkblue
 }
-@media (maxwidth:425px){
+
+@media (max-width:426px) {
     .about{
         display: block;
     }
     .footer{
-        display:inline-block;
+        display:block;
         /* justify-content: space-evenly; */
         /* padding:15px; */
+    }
+    .image1{
+        height:350px;
+        width:90%;
+    }
+    .image2{
+        height:300px;
+        width:70%;
     }
 }
